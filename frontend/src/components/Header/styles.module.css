@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  place-content: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  width: 100%;
+}
+.header img {
+  width: 20px;
+}
+.header h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+}

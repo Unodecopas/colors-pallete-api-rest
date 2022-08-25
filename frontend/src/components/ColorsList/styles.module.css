@@ -1,0 +1,64 @@
+.colorList {
+  display: flex;
+  width: 100%;
+  max-width: 90%;
+  place-items: center;
+  place-content: center;
+}
+.colorList ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.color {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 3px solid var(--text);
+  background: linear-gradient(
+    130.53deg,
+    #404040 17.47%,
+    #404040 27.71%,
+    #b0b0b0 27.72%,
+    #b0b0b0 36.75%,
+    #404040 36.76%,
+    #404040 45.49%,
+    #b0b0b0 45.5%,
+    #b0b0b0 54.23%,
+    #404040 54.24%,
+    #404040 63.27%,
+    #b0b0b0 63.27%,
+    #b0b0b0 71.71%,
+    #404040 71.71%
+  );
+  display: flex;
+  font-size: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+.colorsActive {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 3px solid var(--text);
+  background: linear-gradient(
+    130.53deg,
+    #404040 17.47%,
+    #404040 27.71%,
+    #b0b0b0 27.72%,
+    #b0b0b0 36.75%,
+    #404040 36.76%,
+    #404040 45.49%,
+    #b0b0b0 45.5%,
+    #b0b0b0 54.23%,
+    #404040 54.24%,
+    #404040 63.27%,
+    #b0b0b0 63.27%,
+    #b0b0b0 71.71%,
+    #404040 71.71%
+  );
+  display: flex;
+  font-size: 3rem;
+  place-items: center;
+  place-content: center;
+}
